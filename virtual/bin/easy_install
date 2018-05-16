@@ -1,4 +1,4 @@
-#!/home/marion/Documents/Moringa-school-projects/CORE/Python/Flask/Watchlist_heroku/virtual/bin/python3.6
+#!/home/marion/Documents/Moringa-school-projects/CORE/Python/Flask/Watchlist_heroku/virtual/bin/python2
 
 # -*- coding: utf-8 -*-
 import re
