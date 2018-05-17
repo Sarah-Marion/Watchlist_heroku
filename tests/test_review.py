@@ -11,7 +11,7 @@ class TestReview(unittest.TestCase):
 
 
     def tearDown(self):
-        Review.clear_reviews()
+        # Review.clear_reviews()
         Review.query.delete()
         User.query.delete()
 
@@ -28,7 +28,7 @@ class TestReview(unittest.TestCase):
 
 
     def test_save_review(self):
-        self.new_review.save_review(self.user_Marion)
+        self.new_review.save_review()
         # self.assertTrue(len(Review.all_reviews)>0)
         self.assertTrue(len(Review.query.all())>0)
 
